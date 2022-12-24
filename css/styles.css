@@ -436,8 +436,7 @@ header {
 	padding-left: 16px;
 
 	border: 0.5px solid var(--light);
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-	overflow: hidden;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);	
 }
 
 .portfolio-list {
@@ -472,7 +471,7 @@ header {
 	top: 0;
 	left: 0;
 
-	opacity: 0;
+	/* opacity: 0; */
 
 	margin-top: 0;
 	margin-bottom: 0;
@@ -495,7 +494,7 @@ header {
 	height: 300px;
 }
 .work-link:hover .card-content,  .work-link:focus .card-content{
-	opacity: 1;
+	/* opacity: 1; */
 	transform: translateY(0);
 }
 
